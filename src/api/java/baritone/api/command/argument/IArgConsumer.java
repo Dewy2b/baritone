@@ -18,8 +18,6 @@
 package baritone.api.command.argument;
 
 import baritone.api.command.ICommand;
-import baritone.api.command.exception.CommandTooManyArgumentsException;
-import baritone.api.utils.Helper;
 import baritone.api.command.argparser.IArgParser;
 import baritone.api.command.datatypes.IDatatype;
 import baritone.api.command.datatypes.IDatatypeFor;
@@ -27,6 +25,8 @@ import baritone.api.command.datatypes.IDatatypePost;
 import baritone.api.command.exception.CommandException;
 import baritone.api.command.exception.CommandInvalidTypeException;
 import baritone.api.command.exception.CommandNotEnoughArgumentsException;
+import baritone.api.command.exception.CommandTooManyArgumentsException;
+import baritone.api.utils.Helper;
 import net.minecraft.util.EnumFacing;
 
 import java.util.Deque;

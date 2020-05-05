@@ -17,8 +17,8 @@
 
 package baritone.api.command.datatypes;
 
-import baritone.api.command.helpers.TabCompleteHelper;
 import baritone.api.command.exception.CommandException;
+import baritone.api.command.helpers.TabCompleteHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityList;
 import net.minecraft.util.ResourceLocation;
